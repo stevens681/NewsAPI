@@ -20,7 +20,7 @@ $(document).ready(function() {
 			category: catSelecteed,
 			country: "us",
 			language: "en",
-			apiKey: "86e3aed7c0b945a59bbb5359948503fe"
+			apiKey: APIKEY
 		},
 		success: function(data) {
 			if (data.status === "ok") {
@@ -46,7 +46,7 @@ $(document).ready(function() {
 				category: catSelecteed,
 				country: "us",
 				language: "en",
-				apiKey: "86e3aed7c0b945a59bbb5359948503fe"
+				apiKey: APIKEY
 			},
 			success: function(headLine) {
 				if (headLine.status === "ok") {
